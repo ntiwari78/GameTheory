@@ -2735,3 +2735,89 @@ John Nash extended equilibrium analysis by introducing the concept of **[Mixed S
 This foundational result solidified the role of **randomized strategies** in strategic interactions.
 
 ---
+
+# Essential Reading: *Rock Paper Scissors Game*
+
+**Source:**
+Cohen, A. (2019). *How a Game of Rock, Paper, Scissors Decided a \$20 Million Auction Consignment*. *CNN*
+🔗 [Read on CNN](https://edition.cnn.com/style/article/artsy-christies-sothebys-rock-paper-scissors/index.html)
+
+## 🏛️ Overview
+
+This article recounts how **Christie’s** and **Sotheby’s** settled a high-stakes auction for a valuable art collection through a game of **Rock–Paper–Scissors**, illustrating the strategic weight even in seemingly trivial games.
+
+## Key Highlights
+
+* **Christie’s Preparation**:
+
+  * Sought guidance from experts—children who advised on behavioral tendencies.
+  * This blend of **strategy and intuition** led them to select **Scissors**, exploiting the opponent’s predictable bias.
+
+* **Business Implication**:
+
+  * Demonstrates the critical importance of **strategic thinking** in non-traditional negotiation contexts.
+  * Casual-connotation games can carry **significant real-world consequences**.
+
+* **Underlying Principle**:
+
+  * Reinforces concepts of **mixed strategy equilibrium** and the need for **unpredictability** in competitive environments.
+
+---
+
+# Essential Reading: *Behavioral Strategies and Randomness*
+
+**Source:**
+Finke, R. A. (1984). *Strategies for being random*. *Bulletin of the Psychonomic Society, 22*(1), 40–41.
+🔗 [Read via DOI](https://doi.org/10.3758/bf03333755)
+
+## 🧠 Summary
+
+This article examines the cognitive challenges individuals face when attempting to produce **random sequences**:
+
+### Key Insights
+
+* **Common Pitfall**:
+  People often **underrepresent repetitions** (e.g., 3-3 or rock-rock) in self-generated sequences, falsely believing that randomness implies variety.
+
+* **Instructional Framing Matters**:
+
+  * Telling participants to be “**unpredictable**” yields more statistically random results than asking them to be “**random**.”
+  * “Unpredictability” aligns better with natural intuition and reduces bias.
+
+* **Psychological Bias**:
+  This supports the broader idea that humans are **poor randomizers**, which is critical in understanding behaviors in **mixed strategy games** like Rock–Paper–Scissors or penalty shootouts.
+
+---
+
+# Essential Reading: *The Case of Penalty Kicks in Soccer*
+
+**Source:**
+Chiappori, P. A., Levitt, S., & Groseclose, T. (2001). *Testing Mixed-Strategy Equilibria When Players Are Heterogeneous: The Case of Penalty Kicks in Soccer*.
+🔗 [Read the Full Article (PDF)](https://pricetheory.uchicago.edu/levitt/Papers/ChiapporiGrosecloseLevitt2002.pdf)
+
+## ⚽ Summary
+
+This paper applies **game theory** to a real-world setting by studying **penalty kicks in soccer**, a classic example of a **mixed-strategy equilibrium**.
+
+### Key Takeaways
+
+* **Objective**:
+  Test whether professional soccer players behave in accordance with the predictions of **mixed-strategy Nash equilibrium**.
+
+* **Method**:
+  Analyzed hundreds of penalty kicks from **elite French and Italian soccer leagues**.
+
+* **Findings**:
+
+  * **Support for Theory**:
+    On average, players tend to randomize their choices in a way consistent with equilibrium predictions.
+  * **Player Heterogeneity**:
+    Differences in skill, strategy, and behavior affect the extent to which individual players adhere to the equilibrium.
+  * **Asymmetry Matters**:
+    When players have unequal abilities or preferences, the equilibrium predictions become less precise.
+
+### Implication
+
+The study provides **empirical validation** for game-theoretic models in sports but highlights that **contextual variables and player heterogeneity** can impact real-world adherence to theoretical predictions.
+
+---

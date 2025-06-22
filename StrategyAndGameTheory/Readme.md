@@ -1645,3 +1645,141 @@ This review of *[Why Nations Fail](https://en.wikipedia.org/wiki/Why_Nations_Fai
 * Challenges deterministic theories based on geography or culture, reinforcing the importance of institutional design.
 
 ---
+
+# Application Focus: Stag Hunt and Economic Development
+
+## Recap: Stag Hunt Game
+
+* The **[Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt)** is a game that models the tension between **mutual cooperation** (leading to higher payoff) and **individual risk aversion** (leading to lower but safer payoff).
+* Central theme: **Coordination failure** can lead to suboptimal but stable equilibria.
+
+---
+
+## Case Study: Industrial Revolution as a Stag Hunt
+
+### Source Inspirations:
+
+* *[Why Nations Fail](https://en.wikipedia.org/wiki/Why_Nations_Fail)* by **Daron Acemoglu** and **James A. Robinson**
+* Wydick, B. – Coordination traps and development
+
+### Scenario
+
+* **Three players**: Railways, Coal, and Steel industries
+* **Investment Game**:
+
+  * If **all invest ₹100**, each gets a **return of ₹150** → profit of ₹50
+  * If **even one doesn’t invest**, others get **zero return**
+
+### Game Structure
+
+* 2D matrix representation with a third player’s strategy captured through separate panels.
+* **Two Nash Equilibria**:
+
+  * **All Invest**: (₹50, ₹50, ₹50) → Cooperative, **superior equilibrium**
+  * **None Invest**: (₹0, ₹0, ₹0) → Risk-averse, **inferior equilibrium**
+
+---
+
+## Interpretation
+
+### Development as Coordination
+
+* Developed Economy: All key industries coordinate and invest → Prosperity
+* Underdeveloped Economy: Lack of coordination → No industrial take-off
+
+### Role of Institutions
+
+* **Legal Infrastructure**: Enables **contract enforcement** and **trust**, supporting coordination.
+* Weak institutions → High risk of **coordination failure**
+
+### Broader Relevance
+
+* This model captures the essence of **coordination traps** in **development economics**.
+* Illustrates why **institutional quality** (e.g., property rights, law enforcement, ease of doing business) is vital for economic growth.
+
+---
+
+## Key Takeaways
+
+| Feature               | Developed Economy      | Underdeveloped Economy     |
+| --------------------- | ---------------------- | -------------------------- |
+| Player Actions        | All invest (cooperate) | None invest (defect)       |
+| Outcome               | High payoff            | Zero payoff                |
+| Nash Equilibrium Type | Efficient, cooperative | Risk-dominant, inferior    |
+| Institutional Role    | Enables coordination   | Fails to prevent defection |
+
+---
+
+# Development, Social Norms, and Direct Network Effects in Coordination Games
+
+## Recap: Coordination and Development
+
+* **Development** is characterized by successful **coordination** among key economic agents.
+* **Underdevelopment** reflects **coordination failure**, often due to institutional weakness.
+* Targeted investment in **only one sector** (e.g., railways, coal) cannot resolve low-level equilibrium traps.
+* Holistic, multi-sectoral strategies are essential for achieving **high-equilibrium outcomes**.
+
+---
+
+## Role of Social Norms in Coordination
+
+### Stag Hunt and Social Norms
+
+* Two equilibria:
+
+  * **Stag-Stag** (cooperation, high reward)
+  * **Rabbit-Rabbit** (defection, low reward)
+* Example: A **social custom** (e.g., “eat stag on Wednesdays”) serves as a **focal point**, increasing the likelihood of cooperation.
+* Insight from **[anthropology](https://en.wikipedia.org/wiki/Cultural_anthropology)**: Social norms **create expectations** that facilitate coordination.
+
+---
+
+## Modern Example: Social Media Platforms
+
+### Coordination Game Analogy
+
+* Platforms: **Orkut**, **Facebook**, **Instagram**
+* Utility of joining depends on **others also joining** (not intrinsic features alone).
+* **Direct Network Effects**:
+
+  * Utility increases with the number of users.
+  * Common in technologies like social media and mobile phones.
+
+### Payoff Examples
+
+| Platform Pair                         | Payoffs |
+| ------------------------------------- | ------- |
+| Orkut–Orkut                           | 10, 10  |
+| Facebook–Facebook                     | 30, 30  |
+| Instagram–Instagram (slightly better) | 31, 31  |
+
+### Challenge with Incremental Innovation
+
+* Even if Instagram offers a slightly higher payoff, **incremental improvement** may not be enough.
+* **Mass migration** required for coordination to shift platforms.
+* Without it, **coordination failure** keeps users locked into the current (suboptimal) equilibrium.
+
+---
+
+## Technical Concept: Direct Network Effects
+
+* Defined as: *“The value of a product increases with the number of users”*
+* Examples:
+
+  * **Social media**: Posts gain value with more viewers.
+  * **Mobile phones**: More users mean broader utility.
+
+> [Read more about Direct Network Effects](https://en.wikipedia.org/wiki/Network_effect)
+
+---
+
+## Key Takeaways
+
+| Concept                    | Implication                                              |
+| -------------------------- | -------------------------------------------------------- |
+| **Coordination failure**   | Explains underdevelopment and failed innovation          |
+| **Social norms**           | Act as focal points to guide collective behavior         |
+| **Direct network effects** | Require critical mass for innovations to succeed         |
+| **Incremental innovation** | Often fails in networked environments without mass shift |
+
+---

@@ -2821,3 +2821,33 @@ This paper applies **game theory** to a real-world setting by studying **penalty
 The study provides **empirical validation** for game-theoretic models in sports but highlights that **contextual variables and player heterogeneity** can impact real-world adherence to theoretical predictions.
 
 ---
+
+# Recommended Reading: *Minimax Play at Wimbledon*
+
+**Source:**
+Walker, M., & Wooders, J. (2001). *Minimax Play at Wimbledon*. *The American Economic Review*, 91(5), 1521–1538.
+🔗 [Read the Full Article on JSTOR](https://www.jstor.org/stable/2677937)
+
+## 🎾 Summary
+
+This influential study evaluates whether **professional tennis players** employ strategies consistent with the **minimax theorem**—a foundational concept in **game theory**—during **first serves in Wimbledon matches**.
+
+### Key Takeaways
+
+* **Hypothesis**:
+  Players should randomize their serve directions to keep opponents indifferent, in line with **mixed-strategy Nash equilibrium**.
+
+* **Findings**:
+
+  * **Win Rates**:
+    Align with minimax predictions—players win points at similar rates regardless of serve direction.
+  * **Serve Patterns**:
+    Do not show **serial independence**; players **switch serve directions more often than expected**, likely trying to appear random but failing to do so completely.
+  * **Behavioral Insight**:
+    Even professionals struggle with true randomness, suggesting the **limitations of human cognitive randomization**.
+
+### Implications
+
+While **performance outcomes** suggest strategic awareness, **behavioral patterns** reflect a **predictable structure**—highlighting the gap between **theoretical models** and **real-world execution**. It underscores the necessity for **external randomization tools** in strategy-intensive settings.
+
+---

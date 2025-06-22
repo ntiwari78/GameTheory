@@ -1783,3 +1783,141 @@ This review of *[Why Nations Fail](https://en.wikipedia.org/wiki/Why_Nations_Fai
 | **Incremental innovation** | Often fails in networked environments without mass shift |
 
 ---
+
+# Network Effects, Mergers, and Multi-Homing in Platform Markets
+
+## Recap: Network Effects and Incremental Innovation
+
+* **Direct Network Effects**: The value of a product increases with the number of its users (e.g., social media platforms).
+* **Incremental Innovation**: Often fails unless a **critical mass** migrates to the new product—highlighting the importance of **coordination**.
+
+---
+
+## Strategic Mergers in the Digital Economy
+
+### Examples:
+
+* Acquisitions of **LinkedIn**, **Skype**, **WhatsApp**, and **Instagram**.
+
+### Rationale:
+
+1. **Synergies** with existing services (to be discussed later).
+2. **Preemptive acquisition**: Emerging platforms could **disrupt current equilibrium** and replace the incumbent.
+3. **Cash-burn strategy**: A startup rapidly grows user base to create **network effects**, prompting acquisition before profitability.
+
+---
+
+## Indirect Network Effects: The Two-Sided Market
+
+### Scenario: App-Based Taxi Services
+
+* **Players**: Passengers and Drivers
+* **Platforms**: Uber and Ola (India), Uber and Lyft (US), Grab (Southeast Asia), Didi (China)
+
+### Coordination Game Structure:
+
+| Passenger / Driver | Ola    | Uber   |
+| ------------------ | ------ | ------ |
+| **Ola**            | 30, 30 | 0, 0   |
+| **Uber**           | 0, 0   | 30, 30 |
+
+* **Indirect Network Effects**:
+
+  * More drivers → more passengers
+  * More passengers → more drivers
+
+> [Learn more about Two-Sided Markets](https://en.wikipedia.org/wiki/Two-sided_market)
+
+---
+
+## Market Structures: Single-Homing vs. Multi-Homing
+
+| Concept           | Description                                                 | Example                     |
+| ----------------- | ----------------------------------------------------------- | --------------------------- |
+| **Single-Homing** | Only one platform survives in the market                    | Facebook (social media)     |
+| **Multi-Homing**  | Multiple platforms coexist, each sustaining its own network | Uber and Ola (ride-hailing) |
+
+* **Stag Hunt Parallel**:
+
+  * Single species of stag → **Single-Homing**
+  * Two species of stag → **Multi-Homing**
+    (users split between equally good platforms)
+
+---
+
+## Key Takeaways
+
+* **Network effects**—both direct and indirect—are central to understanding platform dynamics.
+* **M\&A strategy** in tech often involves eliminating future threats through early acquisition.
+* **Multi-homing** supports coexistence of competing platforms, even in coordination-driven markets.
+* The **Stag Hunt game** offers a flexible model for capturing these strategic decisions.
+
+---
+
+# Recommended Reading: *Internet Search Engines and Two-Sided Markets*
+
+**Source:**
+*["Internet Search Engines and Two-Sided Markets"](https://www.epw.in/journal/2018/38/market-power-and-competition-policy/internet-search-engines-and-two-sided.html)*. *Economic and Political Weekly*, September 24, 2018.
+
+## Overview
+
+This article analyzes **internet search engines** like **Google** as **[two-sided markets](https://en.wikipedia.org/wiki/Two-sided_market)**—platforms that connect two distinct user groups: **search engine users** and **advertisers**.
+
+## Key Concepts
+
+* **Free-to-User Model**: Users access services at no cost; platforms generate revenue through targeted ads.
+* **Indirect Network Effects**:
+
+  * More users attract more advertisers.
+  * More advertisers enhance the value of the search experience through better results and funding of services.
+* **Antitrust Concerns**:
+
+  * Traditional competition laws often struggle with the **unique dynamics** of digital platforms.
+  * Issues like **market dominance**, **barriers to entry**, and **data control** complicate regulation.
+
+## Context: India’s Digital Economy
+
+* Rapid growth in internet access and mobile usage creates a dynamic environment.
+* Calls for updated **regulatory frameworks** to ensure competition while supporting innovation.
+
+## Implications
+
+* Policymakers must rethink **antitrust approaches** to account for:
+
+  * Non-price competition
+  * Platform interdependence
+  * Evolving consumer behavior
+* Critical for ensuring **fair competition** in the digital economy.
+
+---
+
+# Recommended Reading: *Small Firms and Digital Platforms*
+
+**Source:**
+Chadha, N., Pingali, V., & Sokol, D. D. (2023). *[Small Firms and Digital Platforms](https://doi.org/10.2139/ssrn.4573570)*. *SSRN Electronic Journal*.
+
+## Overview
+
+This paper explores how **small firms** engage with **digital platforms** for advertising and sales, particularly during early growth and market expansion phases.
+
+## Key Findings
+
+* **Digital Preference**: Small businesses initially prefer digital platforms over conventional media for marketing, especially when **scaling operations** or **exporting**.
+* **Media Shift with Growth**:
+
+  * As firms mature, they continue to use digital advertising.
+  * However, they **diversify** into traditional media channels (e.g., print, TV) as part of broader strategies.
+
+## Relevance to Platform Economics
+
+* Highlights **[multihoming](https://en.wikipedia.org/wiki/Multihoming)**—firms use multiple platforms (established and emerging) simultaneously.
+* Demonstrates the value of **platform choice** in business strategy and competitiveness.
+
+## Policy Implications
+
+* Informs debates on **digital platform regulation**:
+
+  * Supports the need for **competitive platform environments**.
+  * Encourages **accessibility and fairness** for smaller market participants.
+
+---

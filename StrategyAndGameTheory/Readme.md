@@ -2142,3 +2142,117 @@ This paper explores how **small firms** engage with **digital platforms** for ad
   * **Social justice efforts**
 
 ---
+
+# Essential Reading: *Are User Shares Indicative of Market Power?*
+
+**Source:**
+Pingali, V. (2016, April 12). *[Are User Shares Indicative of Market Power?](https://www.livemint.com/Opinion/nd41DmMEW3yIie8Ov3PxWN/Are-user-shares-indicative-of-market-power.html)*. *Mint*
+
+## Overview
+
+This article discusses the **ephemeral nature of market dominance** in the **tech sector**, especially in digital and platform-based markets. It questions whether **high user shares** should be interpreted as evidence of **market power**.
+
+## Key Points
+
+* **Market Power ≠ User Base**: A large user share may not indicate long-term dominance in rapidly evolving tech landscapes.
+* **Transient Leadership**: Cites examples from **social networking platforms** where once-dominant firms lost their lead due to changing preferences or disruptive innovation.
+* **Policy Implications**:
+
+  * Traditional **antitrust frameworks** may not fit digital markets.
+  * Calls for **dynamic regulatory approaches** that consider **innovation cycles** and **network effects**.
+
+## Relevance
+
+* Highlights challenges in applying **competition law** to **two-sided markets** and **platform economies**.
+* Adds nuance to debates on **digital monopolies**, **market concentration**, and **regulatory intervention**.
+
+---
+
+# Essential Reading: *Why Digital Platforms' Regulations Are Required to Preserve Small Businesses*
+
+**Source:**
+*["View: Why digital platforms’ regulations are required to preserve small businesses"](https://economictimes.indiatimes.com/opinion/et-commentary/view-why-digital-platforms-regulations-are-required-to-preserve-small-businesses/articleshow/104167647.cms)*. *The Economic Times*, October 4, 2023.
+
+## Overview
+
+This article addresses the **challenges small businesses face** in the digital economy, especially when reliant on large **platforms for advertising and sales**.
+
+## Key Points
+
+* **Power Asymmetry**: While large firms and regulators are influential stakeholders in digital policy, **small businesses lack representation** and bargaining power.
+* **Platform Dependence**: Small businesses often rely on platforms (e.g., Amazon, Facebook, Google) but face **opaque terms**, **rising costs**, and **data disadvantages**.
+* **Need for Regulation**:
+
+  * To **ensure fairness** in digital contracts and visibility.
+  * To **prevent exploitation** by dominant platforms.
+  * To **preserve diversity and innovation** in the SME sector.
+
+## Policy Implications
+
+* Supports the case for **targeted platform regulations** to protect smaller market participants.
+* Emphasizes the importance of including **small business voices** in the regulatory process.
+
+---
+
+
+# Essential Reading: *Google Antitrust Lawsuit*
+
+**Source:**
+Sokol, D. D., & Pingali, V. (2021, September 23). *[Google Antitrust Lawsuit: What Do India and Taiwan Have in Common?](https://www.forbesindia.com/article/iim-ahmedabad/google-antitrust-lawsuit-what-do-india-and-taiwan-have-in-common/70563/1)*. *Forbes India*
+
+## Overview
+
+This article explores **comparative antitrust concerns** related to **Google’s Android operating system**, focusing on **India** and **Taiwan**.
+
+## Key Points
+
+* **Preinstalled Apps and Market Power**:
+
+  * Preinstallation can **tilt user behavior** and reduce **competitive choice**.
+  * Both markets show high user dependence on preloaded Google apps.
+
+* **Taiwan’s Approach**:
+
+  * Conducted **independent surveys** to assess user behavior and app switching patterns.
+  * Used data to support regulatory actions against **platform dominance**.
+
+* **India’s Opportunity**:
+
+  * Urges Indian regulators to adopt **evidence-based assessments**.
+  * Emphasizes the need for **local market studies** rather than relying solely on global precedent.
+
+## Relevance to Digital Antitrust Policy
+
+* Raises questions about **fair competition** in mobile ecosystems.
+* Highlights the **importance of empirical data** in designing effective **regulatory interventions**.
+
+---
+
+# Recommended Reading: *The Art of Strategy* (Chapter 4)
+
+**Source:**
+Dixit, A. K., & Nalebuff, B. J. (2008). *[The Art of Strategy: A Game Theorist’s Guide to Success in Business and Life](https://d2fahduf2624mg.cloudfront.net/pre_purchase_docs/BK_ADBL_012353/2020-06-22-08-24-12/bk_adbl_012353.pdf)*.
+
+## Overview
+
+This book offers a comprehensive introduction to **game theory** and **strategic thinking**, aimed at helping readers make smarter decisions in **business**, **negotiations**, and **everyday life**.
+
+## Focus: Chapter 4
+
+* **Title**: Focuses on **coordination failures** and **equilibrium selection**.
+* Discusses real-world examples such as the **rise of electric vehicles**, exploring why **superior innovations** sometimes fail to take off.
+* Highlights **Stag Hunt** scenarios where **complementary infrastructure** (e.g., charging stations) is essential but underprovided due to **coordination issues**.
+
+## Key Concepts
+
+* **Game Theory Principles**: Strategic dominance, coordination games, best responses.
+* **Strategic Environment**: Emphasis on incentives, information, and mutual expectations.
+* **Practical Application**: Case studies from markets, politics, and technology.
+
+## Relevance
+
+* Ideal for those seeking to understand **how strategy shapes outcomes** in complex systems.
+* Offers tools for navigating **business strategy**, **policy making**, and **social dynamics**.
+
+---
+

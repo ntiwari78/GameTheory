@@ -1062,3 +1062,237 @@ The **Median Voter Theorem**, attributed to economist [Harold Hotelling](https:/
 ---
 
 
+# Essential Reading: Median Voter Theorem
+
+**Source:**
+[Quickonomics – *Median Voter Theorem Definition & Examples* (January 6, 2023)](https://quickonomics.com/terms/median-voter-theorem/)
+
+## Overview
+
+The [**Median Voter Theorem**](https://en.wikipedia.org/wiki/Median_voter_theorem) is a fundamental concept in both political science and economics. It posits that in a democratic election within a multi-party system, the party or candidate whose position is closest to the preferences of the **median voter** is most likely to win.
+
+## Key Points
+
+* In a **two-party system**, political parties tend to gravitate toward the center of the political spectrum to capture the median voter.
+* This behavior explains the adoption or rejection of specific policies based on their appeal to the middle-ground voter base.
+* The theorem helps interpret political strategy and policy-making decisions, particularly in democracies with majority voting systems.
+
+## Implications
+
+* Encourages **policy moderation**, as extreme positions may alienate the median voter.
+* Influences campaign strategies, particularly in **first-past-the-post electoral systems**.
+* Provides a framework for analyzing **electoral outcomes** and the stability of **democratic institutions**.
+
+---
+
+# Essential Reading: Level-K Thinking
+
+**Source:**
+[Brilliant – *K-level Thinking*](https://brilliant.org/wiki/k-level%20thinking/#:~:text=K%2Dlevel%20thinking%20refers%20to,else%20shares%20the%20same%20capability)
+
+## Overview
+
+[**K-level Thinking**](https://en.wikipedia.org/wiki/Level-k_theory) (also known as Level-K reasoning) is a framework used in game theory and logic puzzles. It involves scenarios in which all participants are assumed to be perfectly rational and possess **infinite intelligence**, allowing them to make flawless deductions and assume the same of others.
+
+## Key Concepts
+
+* **Perfect Rationality**: Each player is capable of flawless reasoning.
+* **Common Knowledge**: It is assumed that all players know the rules, know that others know the rules, and so on.
+* **Recursive Reasoning**: Players reason about what others are thinking, potentially through many layers (e.g., "I think that you think that I think...").
+
+## Applications
+
+* Used to analyze and predict outcomes in [**Nash Equilibria**](https://en.wikipedia.org/wiki/Nash_equilibrium).
+* Helps model behavior in strategic games where anticipating others’ reasoning levels is crucial.
+* Applied in fields like [game theory](https://en.wikipedia.org/wiki/Game_theory), economics, and psychology.
+
+---
+
+# Recommended Reading: The Travelers’ Dilemma
+
+**Source:**
+Basu, K. (1994). *The Traveler’s Dilemma: Paradoxes of Rationality in Game Theory*. The American Economic Review, 84(2), 391–395.
+[Read on JSTOR](https://www.jstor.org/stable/2117865)
+
+## Overview
+
+[**The Traveler’s Dilemma**](https://en.wikipedia.org/wiki/Traveler%27s_dilemma) is a one-shot game developed by economist **Kaushik Basu** to illustrate the limitations and paradoxes of traditional [game-theoretic reasoning](https://en.wikipedia.org/wiki/Game_theory), especially those based on **backward induction**.
+
+## Key Concepts
+
+* **Backward Induction**: A method of reasoning backwards from the end of a problem or game to determine optimal strategies. Though logically sound, it can lead to unintuitive outcomes.
+* **Paradoxes of Rationality**: The game showcases how strictly rational behavior, as defined in classical game theory, can lead to decisions that conflict with human intuition.
+* **Comparison with Other Games**:
+
+  * **[Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)**: Highlights issues in cooperative decision-making.
+  * **[Centipede Game](https://en.wikipedia.org/wiki/Centipede_game)**: Illustrates failures in backward induction due to the allure of continued cooperation.
+
+## Implications
+
+* Challenges the assumption that players always behave in fully rational ways.
+* Suggests that real-world decision-making may require a blend of intuition and formal models.
+* Highlights the importance of understanding **bounded rationality** in economic and strategic contexts.
+
+---
+
+# Recommended Reading: Level-K Thinking Experiments
+
+**Source:**
+Camerer, C. F., & Ho, T. (2015). *Behavioral Game Theory Experiments and Modeling*. In *Handbook of Game Theory and Economic Applications* (pp. 517–573).
+[Read on ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/B9780444537669000100)
+
+## Overview
+
+This chapter presents a comprehensive review of experimental data testing [game theory](https://en.wikipedia.org/wiki/Game_theory) and introduces behavioral models that aim to explain deviations from classical predictions. It emphasizes the role of **bounded rationality** and the need for models that better reflect actual human decision-making.
+
+## Model Categories
+
+1. **[Cognitive Hierarchy Models](https://en.wikipedia.org/wiki/Cognitive_hierarchy_theory)**
+
+   * Relax the assumption of equilibrium.
+   * Assume players have varying depths of reasoning (e.g., Level-0, Level-1, etc.).
+
+2. **[Quantal Response Equilibrium (QRE)](https://en.wikipedia.org/wiki/Quantal_response_equilibrium)**
+
+   * Incorporates stochastic (randomized) decision-making.
+   * Allows players to make errors in proportion to expected payoffs.
+
+3. **Learning Models**
+
+   * Based on reinforcement learning and belief learning.
+   * Account for players adapting based on past actions and outcomes.
+
+4. **Social Preference Models**
+
+   * Include concepts like [inequity aversion](https://en.wikipedia.org/wiki/Inequity_aversion) and reciprocity.
+   * Explain behavior driven by fairness, altruism, and retaliation.
+
+## Key Takeaways
+
+* Standard equilibrium models often fail to predict real behavior in strategic situations.
+* Behavioral game theory integrates psychological realism into economic modeling.
+* Empirical validation is essential: models are evaluated for **precision**, **generality**, and **empirical accuracy**.
+
+---
+
+# Summary: Decision-Making in Game Theory
+
+## Key Concepts Covered
+
+### 1. **Dominant Strategy**
+
+* **Rule 1**: *If there is a dominant strategy, play the dominant strategy.*
+* A [**dominant strategy**](https://en.wikipedia.org/wiki/Dominant_strategy) yields a better payoff regardless of the opponent’s choice.
+* Example games discussed: **Prisoner’s Dilemma**, **Second-price auction**.
+
+### 2. **Elimination of Dominated Strategies**
+
+* **Rule 2**: *If no dominant strategy exists, eliminate dominated strategies.*
+* Use **[iterated elimination of strictly dominated strategies](https://en.wikipedia.org/wiki/Iterated_elimination_of_strictly_dominated_strategies)** to narrow down the strategy set.
+
+### 3. **Median Voter Theorem**
+
+* Introduced via **Hotelling’s model**, extended to market competition.
+* Suggests **minimal product differentiation** as firms, like political parties, converge toward the median consumer or voter.
+* Learn more: [Median Voter Theorem](https://en.wikipedia.org/wiki/Median_voter_theorem) and [Hotelling’s Law](https://en.wikipedia.org/wiki/Hotelling%27s_law)
+
+### 4. **What if No Dominant or Dominated Strategies?**
+
+* Turn to **Nash Equilibrium**.
+
+## Introduction to Nash Equilibrium
+
+### Pop Culture Reference
+
+* Movie: *[A Beautiful Mind](https://en.wikipedia.org/wiki/A_Beautiful_Mind_%28film%29)* starring Russell Crowe.
+* Based on the life of **John Nash**, the mathematician who formalized the concept of **[Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)**.
+
+### Definition
+
+* A **Nash Equilibrium** is a set of strategies where no player can benefit by unilaterally changing their strategy, assuming the other player's strategy remains fixed.
+* It is a state of mutual best responses.
+
+### Explanation via Two Players
+
+* **Red man** (Player 1) and **Blue man** (Player 2) each choose a strategy.
+* If neither wants to change their strategy when the other's choice is held constant, the system is in equilibrium.
+
+## Transition to Best Response Concept
+
+* The next lesson will cover the concept of **Best Response**:
+
+  * A player’s optimal strategy given the other player's choice.
+  * Foundation for visualizing and identifying Nash equilibria in simultaneous-move games.
+
+---
+
+# Game Theory: Understanding Best Response and Nash Equilibrium
+
+## Recap 
+
+---
+
+<img width="702" alt="image" src="https://github.com/user-attachments/assets/32a65fdb-2d61-4ed4-8bd8-72f7016f48ad" />
+
+---
+
+
+* Introduced the concept of **[Nash Equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)**.
+* Defined a game with two players: **Red Man (Player 1)** and **Blue Man (Player 2)**.
+
+  * **Player 1 (Red Man)** strategies: A, B, C
+  * **Player 2 (Blue Man)** strategies: X, Y, Z
+* Payoffs were presented for each strategy combination.
+
+---
+
+## What is a Best Response?
+
+A **[best response](https://en.wikipedia.org/wiki/Best_response)** is the strategy that maximizes a player’s payoff, given the strategy of the other player.
+
+### Player 1’s Best Response
+
+| Player 2's Strategy | Player 1's Best Response | Payoffs (A, B, C) |
+| ------------------- | ------------------------ | ----------------- |
+| X                   | A                        | 9, 5, 7           |
+| Y                   | B                        | 5, 11, 9          |
+| Z                   | B                        | 21, 25, 19        |
+
+### Player 2’s Best Response
+
+| Player 1's Strategy | Player 2's Best Response | Payoffs (X, Y, Z) |
+| ------------------- | ------------------------ | ----------------- |
+| A                   | Y                        | 3, 7, 5           |
+| B                   | Y                        | 5, 9, 6           |
+| C                   | X                        | 8, 7, 6           |
+
+---
+
+## Visualizing Nash Equilibrium
+
+A **Nash Equilibrium** occurs when both players are playing their best responses to each other’s strategies.
+
+### How It Works
+
+* **Player 1's best response** to Player 2’s strategy.
+* **Player 2's best response** to Player 1’s strategy.
+* If both align — that strategy pair is a **Nash Equilibrium**.
+
+### In This Game
+
+* Best response intersection: **Player 1 plays B**, **Player 2 plays Y**.
+* Payoffs: **Player 1 = 11**, **Player 2 = 9**.
+* Neither player wants to deviate unilaterally — this is the **Nash Equilibrium**.
+
+---
+
+## Summary
+
+> **Nash Equilibrium**: A strategy profile where each player's strategy is a best response to the other’s.
+
+> In this example, the equilibrium is:
+> **Red Man (Player 1): B**
+> **Blue Man (Player 2): Y**
+> **Payoffs: (11, 9)**
+
+---

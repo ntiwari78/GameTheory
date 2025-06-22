@@ -2851,3 +2851,44 @@ This influential study evaluates whether **professional tennis players** employ 
 While **performance outcomes** suggest strategic awareness, **behavioral patterns** reflect a **predictable structure**—highlighting the gap between **theoretical models** and **real-world execution**. It underscores the necessity for **external randomization tools** in strategy-intensive settings.
 
 ---
+
+# 📘 Recommended Reading: *The Art of Strategy* – Chapter 5
+
+**Authors:** Avinash K. Dixit & Barry J. Nalebuff (2008)
+**Book:** *The Art of Strategy: A Game Theorist’s Guide to Success in Business and Life*
+🔗 [Read the Full Book (PDF)](https://d2fahduf2624mg.cloudfront.net/pre_purchase_docs/BK_ADBL_012353/2020-06-22-08-24-12/bk_adbl_012353.pdf)
+
+---
+
+## 🎯 Chapter 5: Mixed Strategies
+
+### 🧠 Overview
+
+Chapter 5 dives into the concept of **mixed strategies**—a foundational idea in game theory where players **randomize over actions** to remain unpredictable and prevent opponents from exploiting patterns.
+
+### 🧩 Key Concepts
+
+* **Pure vs. Mixed Strategies**:
+  A **pure strategy** is a definitive choice (e.g., always play Rock); a **mixed strategy** assigns **probabilities** to different actions (e.g., Rock ⅓, Paper ⅓, Scissors ⅓).
+
+* **Randomization as a Strategic Tool**:
+  In competitive environments like **sports**, **auctions**, or **warfare**, randomness ensures **opponent indifference**, neutralizing their ability to predict your moves.
+
+* **Real-World Examples**:
+
+  * **Penalty kicks in soccer**
+  * **Rock-Paper-Scissors in business decisions**
+  * **Corporate strategies and product launches**
+
+* **Common Mistakes**:
+  Human attempts at randomization often fall short due to **biases** like avoiding repetitions or following recognizable patterns.
+
+### 🧪 Applications
+
+* **Behavioral Economics**:
+  Reveals how even professionals may struggle with proper randomization—relevant for understanding limitations in decision-making.
+
+* **Business Strategy**:
+  Encourages deliberate unpredictability in competitive markets, especially where **first-mover advantage** or **market share** is at stake.
+
+---

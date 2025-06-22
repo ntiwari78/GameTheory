@@ -2256,3 +2256,482 @@ This book offers a comprehensive introduction to **game theory** and **strategic
 
 ---
 
+# Exploring Mixed Strategy Equilibrium: The Rock-Paper-Scissors Case
+
+## Story: Art Auction via Rock-Paper-Scissors
+
+* **Takashi Hashiyama**, CEO of **Maspro Denkoh**, owned a valuable art collection.
+* Two top auction houses—**Sotheby’s** and **Christie’s**—competed for exclusive selling rights.
+* Unable to decide, Hashiyama proposed a **Rock-Paper-Scissors (RPS)** game to determine the winner.
+* High stakes: the paintings were worth **\$20–25 million**.
+
+---
+
+## Game Setup
+
+### Players
+
+* **Red**: Sotheby’s
+* **Blue**: Christie’s
+
+### Rules
+
+* Each player simultaneously chooses **Rock**, **Paper**, or **Scissors**.
+* **Payoffs**:
+
+  * Win = **1**
+  * Lose = **0**
+  * Tie = **½**
+
+|                  | Rock (B) | Paper (B) | Scissors (B) |
+| ---------------- | -------- | --------- | ------------ |
+| **Rock (R)**     | ½, ½     | 0, 1      | 1, 0         |
+| **Paper (R)**    | 1, 0     | ½, ½      | 0, 1         |
+| **Scissors (R)** | 0, 1     | 1, 0      | ½, ½         |
+
+---
+
+## Strategic Insight: No Pure Strategy Nash Equilibrium
+
+* A **[Nash Equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)** occurs when no player can improve their payoff by unilaterally changing their strategy.
+* In **Rock-Paper-Scissors**, **no pure strategy** (always playing rock, paper, or scissors) is stable:
+
+  * Any fixed choice can be beaten by another, creating a **cycle of best responses**.
+
+---
+
+## Solution: **Mixed Strategy Nash Equilibrium**
+
+* Each player **randomizes** uniformly:
+
+  * Rock: ⅓
+  * Paper: ⅓
+  * Scissors: ⅓
+* This strategy **neutralizes predictability**, making no option exploitable.
+* This is the **unique mixed strategy Nash equilibrium** for RPS.
+
+---
+
+## Broader Implication
+
+> **Rock-Paper-Scissors** is a simple but profound example illustrating:
+
+* The need for **randomization** in strategic interactions.
+* The existence of **mixed strategies** as equilibrium solutions when pure ones fail.
+
+---
+
+# From Pure to Mixed Strategy Equilibrium: Understanding Zero-Sum Games
+
+## Recap: Rock-Paper-Scissors and Nash Equilibrium
+
+* In **[Rock-Paper-Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors)**, no **pure strategy** Nash equilibrium exists:
+
+  * Each action (rock, paper, scissors) can be defeated by another.
+  * Players continuously cycle through responses.
+* This reveals the need for a **different kind of equilibrium** in such games.
+
+---
+
+## Story Example: *The Princess Bride* and Strategic Poisoning
+
+### Characters:
+
+* **Wesley** (the hero): decides where to place the poison — *front* or *away*.
+* **Vizzini** (the villain): chooses which goblet to drink — *front* or *away*.
+
+### Game Structure:
+
+* Payoffs:
+
+  * If Vizzini picks the poisoned goblet → **Vizzini dies (-1)**, **Wesley lives (1)**
+  * If he avoids the poison → **Wesley dies (-1)**, **Vizzini lives (1)**
+
+### Observation:
+
+* Again, **no stable pure strategy** equilibrium arises—each player tries to outguess the other.
+* The **sum of payoffs is always 0** — a defining feature of a **[zero-sum game](https://en.wikipedia.org/wiki/Zero-sum_game)**.
+
+---
+
+## Example 3: Matrix Game (X, Y vs. A, B)
+
+* **Two players**, row and column, choose from two strategies.
+* All strategy combinations yield **the same total payoff** (e.g., 100).
+* No pure strategy equilibrium emerges.
+
+---
+
+## Common Pattern: Constant-Sum or Zero-Sum Games
+
+### Characteristics:
+
+* Total payoff is **constant** across all outcomes.
+* Rock-Paper-Scissors → sum = 1
+* Vizzini-Wesley → sum = 0
+* Matrix game → sum = 100
+
+### Insight:
+
+* In such games, **pure strategy equilibria may not exist**.
+* Yet, **strategic stability** is still possible using **randomization**.
+
+---
+
+## John Nash's Key Contribution
+
+> **Mixed Strategy Nash Equilibrium**
+
+* Extends the concept of equilibrium to include **probabilistic strategies**.
+* Players randomize over their possible actions in a way that **makes opponents indifferent** to their choices.
+* Nash’s theorem proves that **every finite game has at least one (possibly mixed) Nash equilibrium**.
+
+---
+
+## Coming Up Next
+
+* A deeper dive into **mixed strategies** and how they resolve equilibrium problems in zero-sum and other strategic games.
+
+---
+
+# Reference Watch: *Memorable Movie Death* (The Princess Bride)
+
+**Video Title:** [Memorable Movie Death](https://www.youtube.com/watch?v=U_eZmEiyTo0)
+**Platform:** YouTube
+
+## Overview
+
+This iconic scene from *[The Princess Bride](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29)* features the **battle of wits** between **Wesley** and **Vizzini** over two poisoned goblets. The scene illustrates a classic **strategic deception game**, where each character tries to outsmart the other under conditions of uncertainty.
+
+## Relevance to Game Theory
+
+* Reflects the **zero-sum** nature of strategic interaction: one lives, one dies.
+* Demonstrates the logic behind **anticipating an opponent's reasoning**, a precursor to **mixed strategy thinking**.
+* Offers a vivid, engaging example of **strategic misdirection** and **rational prediction** in decision-making.
+
+---
+
+# Introduction to Mixed Strategy Nash Equilibrium
+
+## Recap: Pure vs. Mixed Strategies
+
+* **Pure Strategy**: Choosing one action with **100% probability**.
+* **Mixed Strategy**: Assigning **probabilities** to multiple actions and playing **randomly** based on those probabilities.
+
+  * Example: Playing X with probability *p* and Y with *1 – p*.
+
+> In a **mixed strategy Nash equilibrium**, each player randomizes their actions such that the **opponent is indifferent** between their own options.
+
+---
+
+## Game Setup
+
+* **Red Player (Row)**: Strategies X and Y
+* **Blue Player (Column)**: Strategies A and B
+
+### Real-Life Interpretations:
+
+* **Football Penalty**: Red is the goalkeeper; Blue is the penalty taker.
+* **Tennis Net Play**: Red guesses direction; Blue selects shot placement.
+
+---
+
+## Key Concept: **Expected Value**
+
+The **expected payoff** for a strategy is calculated by averaging the payoffs across possible outcomes, weighted by the **probabilities of the opponent’s actions**.
+
+### Example: Red Player plays X
+
+Blue plays:
+
+* A with probability **q**
+* B with probability **1 – q**
+
+### Payoffs:
+
+* If Blue plays A → Red gets **60**
+* If Blue plays B → Red gets **70**
+
+### Expected Payoff for X:
+
+$$
+E(X) = 60 \cdot q + 70 \cdot (1 - q)
+$$
+
+---
+
+## Task Before Next Video
+
+> **Challenge**:
+> Now compute the **expected value** for Red Player if they play **Y**, using the same approach.
+
+You’ll need the corresponding payoffs when Red plays Y and Blue plays A or B. Use the same logic to express:
+
+$$
+E(Y) = \text{Payoff when Blue plays A} \cdot q + \text{Payoff when Blue plays B} \cdot (1 - q)
+$$
+
+---
+
+# Mixed Strategy Nash Equilibrium: Solving with Indifference Condition
+
+## 🔁 Recap from Last Video
+
+We introduced the idea of **mixed strategy Nash equilibrium** using a game between two players:
+
+* **Red Player (Row)** chooses between strategies **X** and **Y**.
+* **Blue Player (Column)** chooses between **A** and **B**.
+
+---
+
+## 🎯 Expected Payoffs
+
+### When Red Player plays:
+
+* **X**:
+
+  $$
+  E(X) = 60q + 70(1 - q)
+  $$
+* **Y**:
+
+  $$
+  E(Y) = 80q + 20(1 - q)
+  $$
+
+---
+
+## 🧠 Indifference Condition
+
+To find equilibrium, **both strategies must yield the same expected payoff** for the player:
+
+$$
+60q + 70(1 - q) = 80q + 20(1 - q)
+$$
+
+### Solving:
+
+$$
+60q + 70 - 70q = 80q + 20 - 20q  
+\Rightarrow -10q + 70 = 60q + 20  
+\Rightarrow 50 = 70q  
+\Rightarrow q = \frac{5}{7}
+$$
+
+* So, **Player 2 (Blue)** mixes strategies:
+
+  * A: **5/7**
+  * B: **2/7**
+
+---
+
+## 🎲 Finding Player 1's (Red) Mixed Strategy
+
+Use same logic to ensure **Blue is indifferent** between A and B:
+
+Expected payoff for Blue choosing:
+
+* **A**:
+
+  $$
+  E(A) = \text{(Blue's payoff vs X)} \cdot p + \text{(vs Y)} \cdot (1 - p)
+  $$
+* **B**:
+  Set $E(A) = E(B)$ and solve.
+
+> After solving:
+
+$$
+p = \frac{6}{7}, \quad 1 - p = \frac{1}{7}
+$$
+
+* So, **Player 1 (Red)** mixes strategies:
+
+  * X: **6/7**
+  * Y: **1/7**
+
+---
+
+## ✅ Final Mixed Strategy Nash Equilibrium
+
+* **Player 1 (Red)**:
+
+  * X: $\frac{6}{7}$, Y: $\frac{1}{7}$
+* **Player 2 (Blue)**:
+
+  * A: $\frac{5}{7}$, B: $\frac{2}{7}$
+
+> 📌 **No player has an incentive to deviate** — this defines the **mixed strategy Nash equilibrium**.
+
+---
+
+# 🎲 Mixed Strategy Nash Equilibrium: Interpretation and Human Randomization
+
+## 🔁 Recap
+
+In the previous video, we found the **mixed strategy Nash equilibrium** for a two-player game:
+
+* **Red Player (Row)** plays:
+
+  * X with probability **6/7**,
+  * Y with probability **1/7**.
+* **Blue Player (Column)** plays:
+
+  * A with probability **5/7**,
+  * B with probability **2/7**.
+
+---
+
+## 🔍 Interpretation of Mixed Strategies
+
+* **Each game iteration is independent**:
+  Players make decisions afresh each time, **not based on past choices**.
+
+* **Randomization**:
+
+  * Each player behaves as if flipping a biased coin each round.
+  * Red Player flips a coin with:
+
+    * Heads = 6/7 → play X
+    * Tails = 1/7 → play Y
+  * Blue Player flips:
+
+    * Heads = 5/7 → play A
+    * Tails = 2/7 → play B
+
+📌 *No detectable pattern should emerge—opponents could exploit predictable behavior.*
+
+---
+
+## 🧠 Human Limitation in Randomness
+
+Humans **struggle with true randomization**. Patterns emerge unconsciously, which others can exploit.
+
+### 📚 Example: Rock-Paper-Scissors
+
+* **Objective**: Randomize choices to avoid exploitation.
+
+* **Equilibrium Strategy**:
+
+  $$
+  P(\text{Rock}) = P(\text{Paper}) = P(\text{Scissors}) = \frac{1}{3}
+  $$
+
+* **Real-World Case**:
+  [Takashi Hashiyama's art auction](https://en.wikipedia.org/wiki/Takashi_Hashiyama) used Rock-Paper-Scissors between [Sotheby's](https://en.wikipedia.org/wiki/Sotheby%27s) and [Christie's](https://en.wikipedia.org/wiki/Christie%27s).
+
+  * Christie's consulted children for strategy.
+  * **Children chose Scissors**, exploiting behavioral tendencies—**most novices choose Paper**.
+
+---
+
+## 🎓 Behavioral Insight
+
+* Novices often avoid **Rock** (seems obvious), choose **Paper**.
+* Professionals exploit this, choosing **Scissors**.
+
+### 📝 Insight in Exam Design
+
+* Many instructors unconsciously favor **B** or **C** in MCQs.
+* If guessing:
+
+  * **Randomize externally** (e.g., use a [random number generator](https://www.random.org/)) instead of relying on instinct.
+  * Helps reduce bias.
+
+---
+
+## 📌 Key Takeaways
+
+* **Mixed strategies** require **unpredictability**.
+* **Human biases** often prevent proper randomization.
+* **Tools and algorithms** can aid in achieving true random play.
+* Strategic thinking isn't just about knowledge—**it's about masking intention**.
+
+---
+
+# ⚽ Mixed Strategy Nash Equilibrium in Sports and Human Behavior
+
+## 🎯 Real-Life Example: Penalty Kicks in Football
+
+In football (or *soccer*), **mixed strategies** play a crucial role, especially during penalty kicks:
+
+* **Goalkeeper's Strategies**:
+
+  * Jump left
+  * Jump right
+  * Remain standing
+
+* **Kicker's Strategies**:
+
+  * Kick to goalkeeper's left
+  * Kick to goalkeeper's right
+  * Kick straight
+
+All directions are defined from the **goalkeeper's point of view**.
+
+### 🧠 Behavioral Insight: Action Bias
+
+If a goalkeeper **stands still** and the ball goes the other way, the crowd often perceives them as inactive or lazy—even if standing still was **optimal** per randomization. This phenomenon is called **[Action Bias](https://en.wikipedia.org/wiki/Action_bias)**.
+
+#### 📉 Example from Medicine:
+
+* **Gynecologists** may choose between **C-section** or **natural delivery** based on the previous case outcome—despite each delivery being **independent**.
+* Reflects our **limited ability to view events as truly random or separate**.
+
+---
+
+## 🎾 Mixed Strategies in Professional Tennis
+
+A famous paper by **Walker and Wooders** in *American Economic Review* studied **mixed strategies** in tennis:
+
+* Scenario: **Pete Sampras** vs **Andre Agassi** at Wimbledon.
+* **Sampras** serves either to Agassi's left or right.
+* **Agassi** preempts to either side.
+
+**Mixed Strategy Condition**:
+
+$$
+P(\text{Scoring when serving left}) = P(\text{Scoring when serving right})
+$$
+
+This **indifference** implies that the strategy mix is optimal.
+
+> 🔗 [Walker and Wooders (AER Paper)](https://www.aeaweb.org/articles?id=10.1257/aer.91.5.1521)
+> Title: *Minimax Play at Wimbledon*
+
+---
+
+## 🧪 Experiment: Professionals vs Students
+
+A **study published in Econometrica** compared:
+
+* **Professional footballers** playing mixed strategies
+* **University students** playing the same games
+
+**Findings**:
+
+* Professionals' choices **closely align with theoretical predictions**.
+* Students display **predictable patterns** and **deviate from optimal randomization**.
+
+> 🔗 [Palacios-Huerta & Volij (2008) in Econometrica](https://doi.org/10.3982/ECTA7639)
+> Title: *Experientia Docet: Professionals Play Minimax in Laboratory Experiments*
+
+---
+
+## 🧠 Key Insight: What is Professionalism?
+
+> **Professionalism** = the ability to be **unpredictable** where predictability is a weakness.
+
+This ability to randomize effectively and strategically reflects high-level understanding and application of game theory principles.
+
+---
+
+## 👤 John Nash’s Contribution
+
+John Nash extended equilibrium analysis by introducing the concept of **[Mixed Strategy Nash Equilibrium](https://en.wikipedia.org/wiki/Mixed_strategy)**. His key insight:
+
+> *Every finite game has at least one Nash equilibrium if mixed strategies are allowed.*
+
+This foundational result solidified the role of **randomized strategies** in strategic interactions.
+
+---

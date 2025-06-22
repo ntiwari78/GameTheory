@@ -1296,3 +1296,277 @@ A **Nash Equilibrium** occurs when both players are playing their best responses
 > **Payoffs: (11, 9)**
 
 ---
+
+# Exploring Versions of Nash Equilibrium
+
+## Recap: Nash Equilibrium Basics
+
+* **Nash Equilibrium**: A situation where each player chooses their **best response** to the other’s strategy, and no player has an incentive to deviate unilaterally.
+* Previously illustrated using strategies of **Red Man (Player 1)** and **Blue Man (Player 2)**.
+
+---
+
+## Issues with Nash Equilibrium
+
+### 1. **How is Nash Equilibrium Reached?**
+
+* **John Nash** does not explain how players arrive at equilibrium.
+* Equilibrium can occur **by chance** — players independently make choices that align.
+
+### 2. **Is Nash Equilibrium Always Unique?**
+
+* Not necessarily. There may be **multiple Nash equilibria**.
+* Raises the question: **Which equilibrium is likely or relevant?**
+
+---
+
+## Example: The *Stag Hunt* Game
+
+**[Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt)** is a classic game illustrating coordination and payoff trade-offs.
+
+### Scenario
+
+Two players (Red and Blue) agree to go hunting but forget to coordinate on a meeting place. They have two choices:
+
+* **Stag** (requires both to cooperate, high reward: 4)
+* **Rabbit** (can hunt alone, lower reward: 1)
+
+### Payoff Matrix
+
+|                 | Blue: Stag | Blue: Rabbit |
+| --------------- | ---------- | ------------ |
+| **Red: Stag**   | 4, 4       | 0, 1         |
+| **Red: Rabbit** | 1, 0       | 1, 1         |
+
+### Nash Equilibria
+
+* **(Stag, Stag)**: Best response for both → **Superior Equilibrium**
+* **(Rabbit, Rabbit)**: Also best response for both → **Inferior Equilibrium**
+
+---
+
+## Insights from the Stag Hunt
+
+* Even when both players **know** (Stag, Stag) is better, **(Rabbit, Rabbit)** may occur due to:
+
+  * **Risk aversion**
+  * **Lack of trust or coordination**
+  * **Asymmetric information** (e.g., Red Man’s dietary needs)
+
+### External Information and Focal Points
+
+* The choice of equilibrium can depend on **external signals** or **beliefs** about the other player.
+* These are known as **[focal points](https://en.wikipedia.org/wiki/Focal_point_%28game_theory%29)** — cues that help players coordinate without communication.
+
+---
+
+## Conclusion
+
+> A **bad outcome** in game theory doesn't necessarily stem from a lack of skill or intelligence — it may be the result of settling into an **inferior equilibrium** due to external conditions or coordination challenges.
+
+---
+
+# Game Theory: Focal Points, Stag Hunt, and the Battle of the Sexes
+
+## Recap: Stag Hunt and Focal Points
+
+### Multiplicity in Nash Equilibria
+
+* The **[Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt)** game illustrated two equilibria:
+
+  * **Stag, Stag**: Superior equilibrium (4,4)
+  * **Rabbit, Rabbit**: Inferior equilibrium (1,1)
+
+### Key Insights
+
+* **Focal Points**: External information or context that guide players toward one equilibrium over another.
+
+  * Example: Red Man is diabetic and must eat → Rabbit, Rabbit is chosen.
+  * Conversely, Red Man is known to be adventurous → Blue Man expects Stag → **Stag, Stag** emerges.
+
+* **Game Theory’s Essence**: It’s not just about one’s own choices, but about **thinking through what others believe you believe**—recursive reasoning.
+
+### Takeaways
+
+* **Equilibrium ≠ Efficiency**: Stag Hunt demonstrates that even a stable outcome can be suboptimal.
+* **External context** matters in determining which equilibrium is played.
+
+---
+
+## New Game: The *Battle of the Sexes*
+
+### Scenario Setup
+
+This coordination game involves a stereotypical couple:
+
+* **Man (Red)** prefers **Cricket**
+* **Woman (Blue)** prefers **Opera**
+* Both prefer to be together rather than apart.
+
+### Payoff Matrix
+
+|                  | Woman: Cricket | Woman: Opera |
+| ---------------- | -------------- | ------------ |
+| **Man: Cricket** | 3, 1           | 0, 0         |
+| **Man: Opera**   | 0, 0           | 1, 3         |
+
+### Nash Equilibria
+
+* **Cricket, Cricket** → (3, 1) → Preferred by the man
+* **Opera, Opera** → (1, 3) → Preferred by the woman
+
+### Key Insights
+
+* **Equilibrium with Unequal Benefits**: Unlike Stag Hunt where both players had equal payoffs, this game presents **[asymmetric payoffs](https://en.wikipedia.org/wiki/Battle_of_the_sexes_%28game_theory%29)**.
+* Reflects **inequality within equilibrium**: One player benefits more depending on which equilibrium is selected.
+
+### Broader Implications
+
+* **Inequality as an Equilibrium Outcome**: Differences in outcomes aren't always due to skill or power—they can result purely from which equilibrium the players coordinate on.
+* **Equilibrium ≠ Equality**: Reinforces that game-theoretic stability doesn't imply fairness or equity.
+
+### Humorous Note
+
+* If it's someone's birthday, societal or relational context (a focal point) often dictates which equilibrium prevails.
+
+---
+
+## Summary
+
+| Game                    | Equilibrium Type          | Efficiency    | Equality |
+| ----------------------- | ------------------------- | ------------- | -------- |
+| **Prisoner's Dilemma**  | Bad but stable            | ✘             | ✔        |
+| **Stag Hunt**           | Multiple; one better      | ✘ (partially) | ✔        |
+| **Battle of the Sexes** | Multiple; unequal payoffs | ✘             | ✘        |
+
+---
+
+# Game Theory: Hawk-Dove Game and Variations in Equilibrium
+
+## Recap of Previous Equilibrium Types
+
+### 1. **Stag Hunt**
+
+* **Equilibria**: Same strategies, **ranked by efficiency**.
+
+  * *Stag, Stag* → superior
+  * *Rabbit, Rabbit* → inferior
+* Equilibrium can be driven by **risk aversion** and **focal points**.
+* Players coordinate on identical actions.
+
+### 2. **Battle of the Sexes**
+
+* **Equilibria**: Same strategies, **unequal payoffs**.
+
+  * *Cricket, Cricket* preferred by one player
+  * *Opera, Opera* preferred by the other
+* Equilibrium reflects **inequality**, not inefficiency.
+
+---
+
+## 3. **Hawk-Dove Game** *(aka Game of Chicken)*
+
+### Scenario
+
+* Two players (Red and Blue) are racing toward an intersection in cars.
+* Strategies:
+
+  * **Hawk** = Don’t yield (keep driving)
+  * **Dove** = Yield (brake)
+
+### Payoffs
+
+* If **both play Hawk** → **Crash** → worst outcome for both.
+* If **one plays Hawk**, the other Dove → Hawk gets bragging rights, Dove avoids crash.
+* If **both play Dove** → safe but no dominance.
+
+### Payoff Matrix (simplified)
+
+|               | Blue: Hawk | Blue: Dove |
+| ------------- | ---------- | ---------- |
+| **Red: Hawk** | -10, -10   | 10, 0      |
+| **Red: Dove** | 0, 10      | 1, 1       |
+
+### Nash Equilibria
+
+* **(Hawk, Dove)** and **(Dove, Hawk)**: Both are **pure-strategy Nash equilibria**.
+
+  * Each player's best response depends on the other's choice.
+* **Mixed Strategy Equilibrium**: Players randomize between Hawk and Dove.
+
+### Key Insights
+
+* Unlike previous games, **players choose different strategies** in equilibrium.
+* Reflects **asymmetry in behavior**, yet still achieves stability.
+
+---
+
+## Comparing the Three Equilibrium Types
+
+| Game                    | Strategy Type | Equilibria Rank | Equality | Strategy Match |
+| ----------------------- | ------------- | --------------- | -------- | -------------- |
+| **Stag Hunt**           | Identical     | Ranked          | Yes      | Same           |
+| **Battle of the Sexes** | Identical     | Not Ranked      | No       | Same           |
+| **Hawk-Dove / Chicken** | Different     | Not Ranked      | No       | Different      |
+
+---
+
+## Conclusion
+
+* Game theory explores various **notions of equilibrium**, each revealing different dimensions:
+
+  * **Efficiency** (Stag Hunt)
+  * **Equity** (Battle of the Sexes)
+  * **Strategic Asymmetry** (Hawk-Dove)
+* Understanding these distinctions is crucial for applying game theory in real-world situations like negotiation, conflict resolution, and competition.
+
+---
+
+# Reference Watch: *Simulating the Evolution of Aggression*
+
+**Video Title:** [Simulating the Evolution of Aggression](https://www.youtube.com/watch?v=YNMkADpvO4w)
+**Platform:** YouTube
+
+## Overview
+
+This video presents a simulation-based exploration of the **[Hawk-Dove game](https://en.wikipedia.org/wiki/Hawk%E2%80%93Dove_game)** to study how aggressive and cooperative behaviors evolve over time within populations.
+
+## Key Concepts Covered
+
+* **Aggression vs. Cooperation**: Modeled through Hawk and Dove strategies.
+* **Evolutionary Game Theory**: Examines how strategy success influences reproduction and prevalence over generations.
+* **Population Dynamics**: Demonstrates how mixed populations stabilize or fluctuate depending on environmental and strategic conditions.
+
+## Applications
+
+* Understanding social and biological competition.
+* Insights into conflict resolution, risk-taking, and adaptive behavior in uncertain environments.
+
+---
+
+# Essential Reading: Climate Change and Nash Equilibrium
+
+**Source:**
+[INOMICS – *Stag Hunt* (July 13, 2023)](https://inomics.com/terms/stag-hunt-1537413#:~:text=A%20stag%20hunt%20dilemma%20results,may%20defect%20and%20hunt%20rabbits)
+
+## Overview
+
+The **[Stag Hunt dilemma](https://en.wikipedia.org/wiki/Stag_hunt)**, originally introduced by philosopher **Jean-Jacques Rousseau**, models a conflict between individual risk aversion and collective reward.
+
+In this context, it serves as a powerful metaphor for **[climate change](https://en.wikipedia.org/wiki/Climate_change)** cooperation efforts, where:
+
+* **Collective action** (e.g., international agreements to reduce emissions) promises high benefits if everyone participates.
+* **Defection** (e.g., prioritizing national interests) yields safer, lower payoffs for individuals but undermines global outcomes.
+
+## Key Concepts
+
+* **Social Cooperation vs. Personal Security**: Players (countries) must decide between high-risk cooperation or low-risk defection.
+* **Trust and Coordination**: Success depends on mutual expectations and external signals (focal points).
+* **Nash Equilibrium**: Can result in suboptimal outcomes (e.g., minimal cooperation), mirroring real-world climate negotiations.
+
+## Implications for Climate Policy
+
+* Effective climate strategies must consider game-theoretic barriers to cooperation.
+* **Institutional design**, **credible commitments**, and **shared norms** can help shift equilibrium toward collective action.
+
+---
